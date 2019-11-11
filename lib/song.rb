@@ -72,4 +72,8 @@ class Song
     new.name = song.split(".")[0]
     new
   end
+  
+  def self.destroy_all 
+    self.all.clear
+  end
 end
