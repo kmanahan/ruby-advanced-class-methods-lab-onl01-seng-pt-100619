@@ -60,6 +60,7 @@ class Song
     new.name = song.split(".")[0]
     new
   end
+  
   def self.create_from_filename(data) 
     row = data.split(" - ")
     
