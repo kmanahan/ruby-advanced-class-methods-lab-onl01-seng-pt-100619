@@ -68,7 +68,7 @@ class Song
     
     new = self.create
     new.artist_name = singer
-    new.name = song.split(".")
+    new.name = song.split(".")[0]
     new
   end
 end
